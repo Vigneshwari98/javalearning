@@ -24,19 +24,19 @@ public class Main {
         // System.out.println(a*b);
         // System.out.println(a/b);
         // System.out.println(a%b);
-
-        Scanner scanner = new Scanner(System.in);
-        int numbers = scanner.nextInt();
-        if(numbers > 0){
-            System.out.println("this is a positive no");
-        }
-        else if(numbers < 0){-
-            System.out.println("this is a negative no");
-
-        }
-        else{
-            System.out.println("this is zero");
-        }
+        //
+        //  Scanner scanner = new Scanner(System.in);
+        // int numbers = scanner.nextInt();
+        // if(numbers > 0){
+        //     System.out.println("this is a positive no");
+        // }
+        // else if(numbers < 0){
+        //     System.out.println("this is a negative no");
+        //
+        // }
+        // else{
+        //     System.out.println("this is zero");
+        // }
         //
         // int no = scanner.nextInt();
         // if (no%2 == 0){
@@ -58,7 +58,25 @@ public class Main {
         // float f =100.3;
 
 
+        // ControlFlow controlFlow = new ControlFlow();
 
 
+        for (int v = 1; v <= 10; v++){
+            System.out.println(v);
+        }
+
+        int z = 1;
+        while(z<=10){
+            System.out.println(z);
+            z++;
+        }
+
+
+        Scanner scanner = new Scanner(System.in);
+        int number = scanner.nextInt();
+        for(int i =1;i<=10;i++){
+            int result = number;
+            System.out.println(number +"*"+ i+"=" +result);
+        }
     }
 }
