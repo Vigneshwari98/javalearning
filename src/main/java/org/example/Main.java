@@ -1,5 +1,6 @@
 package org.example;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -60,23 +61,55 @@ public class Main {
 
         // ControlFlow controlFlow = new ControlFlow();
 
+        //
+        // for (int v = 1; v <= 10; v++){
+        //     System.out.println(v);
+        // }
+        //
+        // int z = 1;
+        // while(z<=10){
+        //     System.out.println(z);
+        //     z++;
+        // }
 
-        for (int v = 1; v <= 10; v++){
-            System.out.println(v);
+
+        // Scanner scanner = new Scanner(System.in);
+        // int number = scanner.nextInt();
+        // for(int i =1;i<=10;i++){
+        //     // int result = number;
+        //     System.out.println(number +"*"+ i+"=" + (number*i));
+        // }
+
+        int[] numbers = {14,12,19,34,83,96};
+        int max = numbers[0];
+        for (int i = 0; i < numbers.length; i++) {
+            if (numbers[i] > max) {
+                max = numbers[i];
+            }
         }
+            System.out.println("The Largest Number is "+ max);
 
-        int z = 1;
-        while(z<=10){
-            System.out.println(z);
-            z++;
-        }
+        // for(value: numbers){
+        //     System.out.println(value);
+        // }
 
 
-        Scanner scanner = new Scanner(System.in);
-        int number = scanner.nextInt();
-        for(int i =1;i<=10;i++){
-            int result = number;
-            System.out.println(number +"*"+ i+"=" +result);
-        }
+
+        // int total = 0;
+        // for(int sum : numbers){
+        //     total =  total+sum;
+        // }
+        // System.out.println("Sum = "+ total);
+
+        // System.out.println(Arrays.toString(numbers));
+
+
+        // for (int number : numbers){
+        //     System.out.println(number);
+        // }
+
+
+
+
     }
 }
